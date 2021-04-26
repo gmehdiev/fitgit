@@ -5,6 +5,9 @@
   .promo__subheader {
     font-size: 20px;
   }
+  .slider {
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -27,6 +30,9 @@
   .feed-form {
     margin: 0 auto;
     margin-top: 30px;
+  }
+  .slider {
+    margin-top: 60px;
   }
 }
 
@@ -57,6 +63,9 @@
   }
   .advantages_last:last-child {
     margin-bottom: 0;
+  }
+  .advantages .slider {
+    margin-top: 50px;
   }
 }
 
@@ -148,6 +157,9 @@
   .feed-form .button_submit {
     margin: 0 auto;
     font-size: 12px;
+  }
+  .slider {
+    margin-top: 30px;
   }
 }
 
@@ -413,6 +425,41 @@
   margin-bottom: 20px;
 }
 
+.slider {
+  margin-top: 108px;
+}
+
+.slider__inner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.slider__inner img {
+  margin: 0 auto;
+  width: 67%;
+}
+
+.slider .slick-prev, .slider .slick-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: white;
+}
+
+.slider .slick-prev img, .slider .slick-next img {
+  width: 30px;
+  height: 50px;
+}
+
+.slider .slick-next {
+  right: -66px;
+  left: auto;
+}
+
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
@@ -428,6 +475,9 @@
   }
   .promo__subheader {
     font-size: 20px;
+  }
+  .slider {
+    margin-top: 70px;
   }
 }
 
@@ -451,6 +501,9 @@
   .feed-form {
     margin: 0 auto;
     margin-top: 30px;
+  }
+  .slider {
+    margin-top: 60px;
   }
 }
 
@@ -481,6 +534,9 @@
   }
   .advantages_last:last-child {
     margin-bottom: 0;
+  }
+  .advantages .slider {
+    margin-top: 50px;
   }
 }
 
@@ -572,6 +628,9 @@
   .feed-form .button_submit {
     margin: 0 auto;
     font-size: 12px;
+  }
+  .slider {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
